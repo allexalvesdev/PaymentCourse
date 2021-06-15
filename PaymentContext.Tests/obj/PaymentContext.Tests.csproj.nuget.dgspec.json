@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {}
+    "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+    "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+        "projectUniqueName": "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
         "projectName": "PaymentContext.Domain",
-        "projectPath": "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+        "projectPath": "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
         "packagesPath": "C:\\Users\\aalve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Domain\\obj\\",
+        "outputPath": "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
-                "projectPath": "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+              "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+                "projectPath": "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
               }
             }
           }
@@ -47,6 +47,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "flunt": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -66,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+    "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectUniqueName": "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "projectName": "PaymentContext.Shared",
-        "projectPath": "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectPath": "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "packagesPath": "C:\\Users\\aalve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Shared\\obj\\",
+        "outputPath": "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -105,6 +111,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "flunt": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -124,14 +136,14 @@
         }
       }
     },
-    "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {
+    "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+        "projectUniqueName": "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
         "projectName": "PaymentContext.Tests",
-        "projectPath": "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+        "projectPath": "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
         "packagesPath": "C:\\Users\\aalve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Tests\\obj\\",
+        "outputPath": "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -152,11 +164,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
-                "projectPath": "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
+              "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+                "projectPath": "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
               },
-              "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
-                "projectPath": "C:\\Users\\aalve\\source\\repos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+              "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+                "projectPath": "C:\\Dev\\github\\PaymentCourse\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
               }
             }
           }
@@ -186,6 +198,10 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[1.3.0, )"
+            },
+            "flunt": {
+              "target": "Package",
+              "version": "[1.0.2, )"
             }
           },
           "imports": [

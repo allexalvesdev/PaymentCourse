@@ -1,4 +1,5 @@
-﻿using PaymentContext.Domain.ValueObjects;
+﻿using Flunt.Validations;
+using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Entities;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,20 +10,15 @@ namespace PaymentContext.Domain.Entities
     {
 
         private readonly IList<Subscription> _subscriptions;
-        private readonly IList<string> Notification;
 
         public Student(Name name, Document document, Email email)
         {
             Name = name;
             Document = document;
             Email = email;
-
             _subscriptions = new List<Subscription>();
 
-            if (string.IsNullOrEmpty(name.FirstName))
-            {
-                Notification.Add("Nome Inválido.");
-            }
+            AddNotifications(name, document, email);
         }
         public Name Name { get; set; }
         public Document Document { get; private set; }
@@ -45,14 +41,29 @@ namespace PaymentContext.Domain.Entities
         public void AddSubscription(Subscription subscription)
         {
             //Se já tiver uma assinatura ativa, cancela.
-
             //Cancela todas as assinaturas e setar está como a principal.
-            foreach (var sub in Subscriptions)
+
+            var hasSubscriptionActive = false;
+
+            foreach (var sub in _subscriptions)
             {
-                subscription.Inactivate();
+                if (sub.Active)
+                {
+                    hasSubscriptionActive = true;
+                }
             }
 
-            _subscriptions.Add(subscription);
+            //Opção 01 = Testada
+            //AddNotifications(new Contract()
+            //    .Requires()
+            //    .IsFalse(hasSubscriptionActive, "Student.Subscription", "Você já possui uma assinatura ativa")
+            //    );
+
+            //Opção 02 = Precisa de um teste
+            if (hasSubscriptionActive)
+            {
+                AddNotification("Student.Subscription", "Você já possui uma assinatura ativa");
+            }
         }
 
     }

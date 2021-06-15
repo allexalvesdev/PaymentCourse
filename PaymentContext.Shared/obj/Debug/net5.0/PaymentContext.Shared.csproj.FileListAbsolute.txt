@@ -10,3 +10,15 @@ C:\Users\aalve\source\repos\PaymentContext\PaymentContext.Shared\obj\Debug\net5.
 C:\Users\aalve\source\repos\PaymentContext\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.dll
 C:\Users\aalve\source\repos\PaymentContext\PaymentContext.Shared\obj\Debug\net5.0\ref\PaymentContext.Shared.dll
 C:\Users\aalve\source\repos\PaymentContext\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.pdb
+C:\Dev\github\PaymentCourse\PaymentContext.Shared\bin\Debug\net5.0\PaymentContext.Shared.deps.json
+C:\Dev\github\PaymentCourse\PaymentContext.Shared\bin\Debug\net5.0\PaymentContext.Shared.dll
+C:\Dev\github\PaymentCourse\PaymentContext.Shared\bin\Debug\net5.0\ref\PaymentContext.Shared.dll
+C:\Dev\github\PaymentCourse\PaymentContext.Shared\bin\Debug\net5.0\PaymentContext.Shared.pdb
+C:\Dev\github\PaymentCourse\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.csprojAssemblyReference.cache
+C:\Dev\github\PaymentCourse\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\github\PaymentCourse\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.AssemblyInfoInputs.cache
+C:\Dev\github\PaymentCourse\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.AssemblyInfo.cs
+C:\Dev\github\PaymentCourse\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.csproj.CoreCompileInputs.cache
+C:\Dev\github\PaymentCourse\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.dll
+C:\Dev\github\PaymentCourse\PaymentContext.Shared\obj\Debug\net5.0\ref\PaymentContext.Shared.dll
+C:\Dev\github\PaymentCourse\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.pdb
