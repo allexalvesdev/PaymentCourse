@@ -202,3 +202,4 @@ C:\Dev\github\PaymentCourse\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext
 C:\Dev\github\PaymentCourse\PaymentContext.Tests\obj\Debug\net5.0\ref\PaymentContext.Tests.dll
 C:\Dev\github\PaymentCourse\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.pdb
 C:\Dev\github\PaymentCourse\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.genruntimeconfig.cache
+C:\Dev\github\PaymentCourse\PaymentContext.Tests\bin\Debug\net5.0\Flunt.dll

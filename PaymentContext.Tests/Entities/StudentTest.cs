@@ -8,7 +8,7 @@ namespace PaymentContext.Tests.Entities
     [TestClass]
     public class StudentTest
     {
-        [TestMethod]
+        //[TestMethod]
         public void TestMethod1()
         {
 
